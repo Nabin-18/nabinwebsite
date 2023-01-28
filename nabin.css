@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20201026/pngtree-futuristic-shape-abstract-background-chemistry-technology-concept-for-website-image_438818.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar {
+  /* display: flex; */
+}
+nav {
+  background-color: aqua;
+  display: flex;
+  height: 50px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  margin-left: 500px;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul li {
+  display: flex;
+  /* padding: 12px; */
+  margin-left: 85px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  cursor: pointer;
+}
+nav ul li a:hover {
+  background-color: white;
+  border-radius: 50%;
+  color: red;
+}
+.main {
+  display: flex;
+  /* background-color: lightgreen; */
+  /* height: 170px;
+width: 455px; */
+
+  margin-left: 40vh;
+  padding: 40px;
+  margin-top: 60px;
+  border-radius: 90px;
+}
+.intro h1 {
+  text-align: center;
+  /* font-family:'Times New Roman', Times, serif; */
+  font-size: 50px;
+  font-weight: bold;
+  color: deeppink;
+}
+h2 {
+  color: darkblue;
+  font-size: 40px;
+}
+h2 span {
+  color: yellow;
+  font-weight: bold;
+  font-size: 30px;
+}
+p {
+  color: white;
+  font-size: 35px;
+}
+p span {
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+}
+.photo img {
+  display: flex;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  left: 300px;
+  border-radius: 50%;
+}
+.connect p {
+  background-color: green;
+  color: white;
+  height: 80px;
+  width: 513px;
+  text-align: center;
+  border-radius: 20px;
+}
+.connect {
+  position: absolute;
+  top: 350px;
+}
+.connect :hover {
+  background-color: aqua;
+  color: red;
+  border-radius: 20px;
+}
+.socialmedia {
+  display: flex;
+  height: 50px;
+  /* background-color: greenyellow; */
+  margin-top: 15vh;
+  margin-left: 500px;
+}
+.fa {
+  display: flex;
+  padding: 19px;
+  color: white;
+  justify-content: space-around;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  size: 10px;
+  width: 40px;
+  /* margin-left: 500px; */
+}
+
+.fa-facebook {
+  /* height: 5px;
+    width: 5px; */
+  /* background-color: blue; */
+  border-radius: 150px;
+  /* font-size: 200px; */
+  color: blue;
+  /* align-items: center; */
+}
+.fa-twitter {
+  /* background-color: blue; */
+  border-radius: 150px;
+  color:blue;
+}
+.fa-instagram {
+  /* background-color: lightpink; */
+  border-radius: 150px;
+  color: pink;
+}
+.fa-linkedin {
+  /* background-color: blue; */
+  border-radius: 150px;
+  color: blue;
+}
+.fa-snapchat {
+  /* background-color: yellow; */
+  border-radius: 150px;
+  color: yellow;
+}
+.fa-google {
+  /* background-color: lightgoldenrodyellow; */
+  border-radius: 150px;
+  color: red;
+}
+
+/* media queries for the nav bar  */
+@media (max-width: 480px) {
+  body {
+    background-image: url(https://i.ytimg.com/vi/4l6J5jhRgos/maxresdefault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  nav ul {
+    margin-left: 5px;
+    justify-content: space-between;
+  }
+   nav ul li {
+    margin: 10px;
+    justify-content: space-between;
+  }
+  .main {
+    margin: 2px;
+    height: 100%;
+    width: 30%;
+  }
+  .intro h1 {
+    font-size: 100%;
+  }
+  h2 {
+    font-size: 100%;
+  }
+  h2 span {
+    font-size: 100%;
+  }
+  p {
+    font-size: 100%;
+  }
+  p span {
+    font-size: 100%;
+  }
+  .photo img {
+    left: 139px;
+    width: 315%;
+    height: 102%;
+  }
+  /* .connect p{
+        font-size: 100%;
+        text-align:center;
+    } */
+  .connect {
+    visibility: hidden;
+  }
+  .socialmedia {
+    margin-left: 2px;
+    margin-top: 2px;
+  }
+  .fa {
+    justify-content: space-around;
+  }
+}
